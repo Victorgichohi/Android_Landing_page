@@ -1,19 +1,36 @@
 body{
   padding: 0;
   margin: 0;
+  background-image: url('../assets/icon_image.jpg');
+  height: 100%;
+  repeat:no-repeat;
+  overflow: hidden;
 }
+
 .all_input{
 
   position: absolute;
   margin-left: 350px;
   top: 50%;
 }
+.phone_image{
+  position: absolute;
+  left: 9%;
+}
 h2{
+
   position: relative;
   margin-left: 50px;
+  font-family: 'Pacifico', cursive;
 }
 .some_text{
+
   position: absolute;
   margin-left: 390px;
   top: 30%;
+  font-family: 'Pacifico', cursive;
+  /*font-size: 20px;*/
+}
+.button-primary{
+  padding-left: 20px;
 }
