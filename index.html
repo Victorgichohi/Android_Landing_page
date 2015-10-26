@@ -3,19 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Android Landing Page</title>
-    <link rel="stylesheet" href="/css/main.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="/css/skeleton.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
 
       <div class="row">
-        <div class="six columns">
+
+        <div class="four columns all_input">
           <label for="exampleEmailInput">Your email</label>
           <input class="u-full-width" placeholder="test@mailbox.com" id="textbox" id="exampleEmailInput" type="email">
+
+          <input class="button-primary" value="Submit" type="submit" id="create">
+          <a download="info.txt" id="downloadlink" style="display: none">Download</a>
         </div>
-        <input class="button-primary" value="Submit" type="submit" id="create">
-      </div>
-      <a download="info.txt" id="downloadlink" style="display: none">Download</a>
+
+
     <script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>
