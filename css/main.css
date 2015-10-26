@@ -3,7 +3,17 @@ body{
   margin: 0;
 }
 .all_input{
+
   position: absolute;
   margin-left: 350px;
   top: 50%;
+}
+h2{
+  position: relative;
+  margin-left: 50px;
+}
+.some_text{
+  position: absolute;
+  margin-left: 390px;
+  top: 30%;
 }
