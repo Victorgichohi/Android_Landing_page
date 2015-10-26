@@ -1,7 +1,7 @@
 body{
   padding: 0;
   margin: 0;
-  background-image: url('../assets/icon_image.jpg');
+  background-image: url('../assets/icon2.jpg');
   height: 100%;
   repeat:no-repeat;
   overflow: hidden;
@@ -33,4 +33,10 @@ h2{
 }
 .button-primary{
   padding-left: 20px;
+}
+
+.BounceInDown {
+  -webkit-animation-duration: 3s;
+  -moz-animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
